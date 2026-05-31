@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог | Narnia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="toastContainer"></div> 
+    <header>
+   <div class="logo-container">
+    <h1 class="logo">Narnia</h1>
+</div>
+
+<nav class="navbar">
+
+    <ul>
+
+        <li>
+            <a href="index.html">Головна</a>
+        </li>
+
+        <li>
+            <a href="catalog.html">Каталог</a>
+        </li>
+
+        <li>
+            <a href="favorites.html">Обране</a>
+        </li>
+
+        <li>
+            <a href="cart.html">Кошик</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+</header><section class="container">
+    <h1>Каталог книг</h1><div class="search-box">
+   <input
+    type="text"
+    id="searchInput"
+    placeholder="Пошук книги..."
+>
+</div>
+
+<div class="filters">
+    <button onclick="filterByCategory('Усі')">Усі</button>
+
+<button onclick="filterByCategory('Детектив')">
+    Детектив
+</button>
+
+<button onclick="filterByCategory('Фентезі')">
+    Фентезі
+</button>
+
+<button onclick="filterByCategory('Фантастика')">
+    Фантастика
+</button>
+
+<button onclick="filterByCategory('Класика')">
+    Класика
+</button>
+
+<button onclick="filterByCategory('Містика')">
+    Містика
+</button>
+</div>
+
+<div id="productsGrid" class="products-grid">
+
+</div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>

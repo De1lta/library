@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Гаррі Поттер і філософський камінь",
+    "price": 350,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Vn5HFd-ANT_--kCE2JJwSD2_aNkiAqQ0XQ&s",
+    "category": "Фентезі"
+  },
+  {
+    "id": 2,
+    "title": "Хроніки Нарнії",
+    "price": 320,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBf_bUAfLervi9qxVG9Wv7KG8UAZYz6oXnoA&s",
+    "category": "Фентезі"
+  },
+  {
+    "id": 3,
+    "title": "Володар перснів",
+    "price": 450,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMfO4phci-UMXEQjjqkFoj-bRRAEwEJwKYyw&s",
+    "category": "Фентезі"
+  },
+  {
+    "id": 4,
+    "title": "Дюна",
+    "price": 390,
+    "image": "https://book-ye.com.ua/media/catalog/product/cache/79524a38d3bc3d0f3b6015a08841400c/3/e/3ec97f0b-3000-11e7-80c5-000c29ae1566_2d2fca36-de18-11ee-8194-00505684ea69.jpg",
+    "category": "Фантастика"
+  },
+  {
+    "id": 5,
+    "title": "Марсіанин",
+    "price": 310,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZt6KTlEsk1pXsTITyb3I0XpJ6OpzqRuTH4Q&s",
+    "category": "Фантастика"
+  },
+  {
+    "id": 6,
+    "title": "451° за Фаренгейтом",
+    "price": 280,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHh1QhkrcSpL_RVKNfuFZO6lyg3K6VCjjfA&s",
+    "category": "Антиутопія"
+  },
+  {
+    "id": 7,
+    "title": "1984",
+    "price": 290,
+    "image": "https://book-ye.com.ua/media/catalog/product/cache/79524a38d3bc3d0f3b6015a08841400c/c/f/cfa051db-74e0-11e6-80be-000c29ae1566_3727b395-a703-11ed-817c-0050568ef5e6.jpg",
+    "category": "Антиутопія"
+  },
+  {
+    "id": 8,
+    "title": "Шерлок Холмс",
+    "price": 270,
+    "image": "https://strgimgr.umico.az/img/product/1680/0c4847e5-5fa1-4733-986e-05b84181cd33.jpeg",
+    "category": "Детектив"
+  },
+  {
+    "id": 9,
+    "title": "Убивство у Східному експресі",
+    "price": 260,
+    "image": "https://www.arfa.in.ua/image/cache/catalog/9_ARFA_Image/arfa_099/31-500x500.jpg",
+    "category": "Детектив"
+  },
+  {
+    "id": 10,
+    "title": "Маленький принц",
+    "price": 220,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-R2I7lxqeCd1LEIkQbUOxRo0ILH3n6h9g2w&s",
+    "category": "Класика"
+  },
+  {
+    "id": 11,
+    "title": "Гордість і упередження",
+    "price": 240,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHenzprR_lHtyG8Oo_iYc4qtFE6SRPoiZ4w&s",
+    "category": "Роман"
+  },
+  {
+    "id": 12,
+    "title": "Острів скарбів",
+    "price": 250,
+    "image": "https://book-ye.com.ua/media/catalog/product/cache/79524a38d3bc3d0f3b6015a08841400c/f/7/f78cd451-ba66-11e8-8107-000c29ae1566_706db0ec-3407-11ed-8175-0050568ef5e6.jpg",
+    "category": "Пригоди"
+  },
+  {
+    "id": 13,
+    "title": "Робінзон Крузо",
+    "price": 260,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYT3jd_h_Fryz1CniSjoNq1w7J4HCnEwkNA&s",
+    "category": "Пригоди"
+  },
+  {
+    "id": 14,
+    "title": "Дракула",
+    "price": 300,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwexU4BiyWQDVBNt1TSk1V75tmQBUhFhmY2w&s",
+    "category": "Містика"
+  },
+  {
+    "id": 15,
+    "title": "Франкенштейн",
+    "price": 290,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHqp_oXVNNgccCoKz1pYgRyrXnVdDI2_ysQ&s",
+    "category": "Містика"
+  }
+]

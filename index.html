@@ -3,34 +3,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Narnia - Книжковий магазин</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body><!-- Шапка -->
-<header>
-    <div class="container">
-        <div class="logo">Narnia</div>
+<body>
+<div id="toastContainer"></div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Головна</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="favorites.html">Обране</a></li>
-                <li><a href="cart.html">Кошик</a></li>
-            </ul>
-        </nav>
-    </div>
+<header>
+  <div class="logo-container">
+    <h1 class="logo">Narnia</h1>
+</div>
+
+<nav class="navbar">
+
+    <ul>
+
+        <li>
+            <a href="index.html">Головна</a>
+        </li>
+
+        <li>
+            <a href="catalog.html">Каталог</a>
+        </li>
+
+        <li>
+            <a href="favorites.html">Обране</a>
+        </li>
+
+        <li>
+            <a href="cart.html">Кошик</a>
+        </li>
+
+    </ul>
+
+</nav>
+
 </header>
 
-<!-- Банер -->
+
 <section class="hero">
     <div class="hero-content">
         <h1>Ласкаво просимо до Narnia</h1>
-        <p>Місце, де кожна книга відкриває новий світ.</p>
+        <p>✨Місце, де кожна книга відкриває новий світ.✨</p>
         <a href="catalog.html" class="btn">Перейти до каталогу</a>
     </div>
 </section>
 
-<!-- Про нас -->
+
 <section class="about">
     <div class="container">
         <h2>Про нас</h2>
@@ -49,38 +67,38 @@
     </div>
 </section>
 
-<!-- Популярні книги -->
+
 <section class="popular">
     <div class="container">
         <h2>Популярні книги</h2>
 
         <div class="popular-books">
 
-            <div class="book-card">
-                <img src="img/books/harry_potter.jpg" alt="Гаррі Поттер">
-                <h3>Гаррі Поттер і філософський камінь</h3>
-            </div>
+            <a href="book-harry.html" class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Vn5HFd-ANT_--kCE2JJwSD2_aNkiAqQ0XQ&s" alt="Гаррі Поттер">
+                <h3>🔥 Гаррі Поттер і філософський камінь 🔥</h3>
+            </a>
 
-            <div class="book-card">
-                <img src="img/books/lotr.jpg" alt="Володар перснів">
-                <h3>Володар перснів</h3>
-            </div>
+            <a href="book-lord.html" class="book-card">
+                <img src="https://book-ye.com.ua/media/catalog/product/cache/79524a38d3bc3d0f3b6015a08841400c/7/d/7dcde957-819f-11e6-80c0-000c29ae1566_fbd9d961-4f88-11ed-8175-0050568ef5e6.jpg" alt="Володар перснів">
+                <h3>🔥 Володар перснів 🔥</h3>
+            </a>
 
-            <div class="book-card">
-                <img src="img/books/1984.jpg" alt="1984">
-                <h3>1984</h3>
-            </div>
+            <a href="book-1984.html" class="book-card">
+                <img src="https://book-ye.com.ua/media/catalog/product/cache/79524a38d3bc3d0f3b6015a08841400c/c/f/cfa051db-74e0-11e6-80be-000c29ae1566_3727b395-a703-11ed-817c-0050568ef5e6.jpg" alt="1984">
+                <h3>🔥 1984 🔥</h3>
+            </a>
 
-            <div class="book-card">
-                <img src="img/books/sherlock.jpg" alt="Шерлок Холмс">
-                <h3>Шерлок Холмс</h3>
-            </div>
+            <a href="book-sherlock.html" class="book-card">
+                <img src="https://strgimgr.umico.az/img/product/1680/0c4847e5-5fa1-4733-986e-05b84181cd33.jpeg" alt="Шерлок Холмс">
+                <h3>🔥 Шерлок Холмс 🔥</h3>
+            </a>
 
         </div>
     </div>
 </section>
 
-<!-- Переваги -->
+
 <section class="advantages">
     <div class="container">
         <h2>Чому обирають нас?</h2>
@@ -111,12 +129,12 @@
     </div>
 </section>
 
-<!-- Підвал -->
+
 <footer>
     <div class="container">
         <p>© 2026 Narnia. Усі права захищені.</p>
     </div>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

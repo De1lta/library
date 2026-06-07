@@ -29,8 +29,10 @@
         </li>
 
         <li>
-            <a href="cart.html">Кошик</a>
-        </li>
+    <a href="cart.html">
+        🛒Кошик <span id="cartCount">0</span>
+    </a>
+</li>
 
     </ul>
 
@@ -45,6 +47,42 @@
 <h2 id="totalPrice" class="total-price">
     Загальна сума: 0 грн
 </h2>
+<div class = "order-form">
+    <h2>Оформлення замовлення</h2>
+     <input
+        type="text"
+        id="customerName"
+        placeholder="Ваше ім'я">
+
+     <input
+        type="tel"
+        id="customerPhone"
+        placeholder="Ваш номер телефону">
+      
+     <input
+        type="email"
+        id="customerEmail"
+        placeholder="Email">
+        
+     <textarea   
+        id="customerAddress"
+        placeholder="Адреса доставки"></textarea>
+
+     <button 
+         class="order-btn"
+         onclick="placeOrder()">
+            Оформити замовлення
+        </button>
+
+
+
+
+
+
+</div>
+
+
+
 
 </section><script src="script.js"></script></body>
 </html>
